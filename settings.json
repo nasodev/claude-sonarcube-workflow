@@ -1,0 +1,48 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(gh pr create*)",
+      "Bash(gh pr *)",
+      "Bash(git worktree remove*)",
+      "Bash(*cleanup_worktree*)",
+      "Bash(rm -rf *)",
+      "Bash(git reset --hard*)",
+      "Bash(git checkout .)",
+      "Bash(git clean -f*)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/save-history.sh"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/save-history.sh"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/save-history.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
