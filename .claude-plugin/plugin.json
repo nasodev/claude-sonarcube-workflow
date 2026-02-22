@@ -1,0 +1,22 @@
+{
+    "name": "sonar",
+    "version": "1.0.8",
+    "description": "SonarQube 코드 이슈를 수집→분석→수정→검증까지 자동 처리하는 Claude Code 워크플로우 플러그인. Google Sheets 연동, 독립 서브에이전트 병렬 처리, TDD 게이팅 지원.",
+    "author": {
+        "name": "nasodev"
+    },
+    "repository": "https://github.com/nasodev/claude-sonarcube-workflow",
+    "homepage": "https://github.com/nasodev/claude-sonarcube-workflow",
+    "marketplace": "https://github.com/nasodev/nasodev-marketplace",
+    "license": "MIT",
+    "keywords": [
+        "claude-code",
+        "sonarqube",
+        "code-quality",
+        "workflow",
+        "automation",
+        "jira",
+        "tdd",
+        "google-sheets"
+    ]
+}
