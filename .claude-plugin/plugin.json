@@ -7,7 +7,6 @@
     },
     "repository": "https://github.com/nasodev/claude-sonarcube-workflow",
     "homepage": "https://github.com/nasodev/claude-sonarcube-workflow",
-    "marketplace": "https://github.com/nasodev/nasodev-marketplace",
     "license": "MIT",
     "keywords": [
         "claude-code",
